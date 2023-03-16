@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.multicampus.springex.sample.SampleTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-15T04:22:54" hostname="DESKTOP-9VHUCIK" time="0.057">
+  <properties/>
+  <testcase name="testConnection()" classname="com.multicampus.springex.sample.SampleTests" time="0.057"/>
+  <system-out><![CDATA[01:22:53  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:22:53  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53667cbe, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1d3e6d34, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6eafb10e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@26a94fa5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@464a4442, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2873d672, org.springframework.test.context.event.EventPublishingTestExecutionListener@3bc735b3]
+01:22:54  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+01:22:54  INFO [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3e7c4815
+01:22:54  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+01:22:54  INFO [com.multicampus.springex.sample.SampleTests] HikariProxyConnection@790432700 wrapping org.mariadb.jdbc.Connection@3e7c4815
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
